@@ -1,0 +1,26 @@
+{
+  "name": "blog-web-app",
+  "version": "1.0.0",
+  "description": "wed-dev project",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "devStart": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bj3rg/Blog-web-app.git"
+  },
+  "author": "Angelo Burog",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bj3rg/Blog-web-app/issues"
+  },
+  "homepage": "https://github.com/bj3rg/Blog-web-app#readme",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.4"
+  }
+}

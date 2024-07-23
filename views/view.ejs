@@ -2,8 +2,26 @@
 
     <div>
         <h1>This is VIEW PAGE</h1>
+        <div>
+            <% if(locals.header && locals.body){ %>
+
+                <ul>
+
+                    <% for(var i=0; i < (header.length+1); i++ ){ %>
+
+                        <li>
+                            <%= header[i] %>
+                                <%= body[i] %>
+
+                                    <a href="/delete"><img src="/images/icons8-edit-100.png" alt=""></a>
+                        </li>
+
+                        <% } %>
+
+
+                </ul>
+                <% } %>
+        </div>
     </div>
-
-
 
     <%- include("partials/footer.ejs") %>

@@ -17,6 +17,8 @@ app.get("/view-blogs", (req, res) => {
   res.render("view.ejs", { header: headers, body: bodies });
 });
 
+app.get("", (req, res) => {});
+
 app.get("/create", (req, res) => {
   res.render("create.ejs");
 });
